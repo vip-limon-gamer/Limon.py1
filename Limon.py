@@ -89,7 +89,7 @@ for x in range(999):
 	E = f' Mobile Safari/537.36'
 	F = f'{A}{C}{D}{E}'
 os.system("clear")
-os.system('xdg-open https://chat.whatsapp.com/HNvBHDP6FOPCg3BVwlpvrC')
+os.system('xdg-open https://www.facebook.com/MD.Limon0002?mibextid=avESrC')
 os.system('espeak -a 300 "Walcome To"')
 os.system('speak -a 300 "GAMING WITH LIMON .Tools"')
 logo = ("""\33[;33m   
